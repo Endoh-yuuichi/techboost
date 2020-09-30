@@ -1,7 +1,9 @@
 for n in 3..4 do
-if n <= 3 || n >= 5
+if n == 3 
   p 'nは3です'
-else
+elsif n == 4
   p 'nは4です'
+else
+  p 
 end
 end
